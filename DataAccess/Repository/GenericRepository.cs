@@ -31,7 +31,7 @@ namespace DataAccess.Repository
                 _db.SaveChanges();
             }
         }
-            
+        //Delet Multiple Recodes
         public void DeleteInRang(IEnumerable<T> entities)
         {
             foreach (var item in entities)
